@@ -1,13 +1,27 @@
-"""
-Задайте список целых чисел. Найдите сумму элементов списка, имеющих нечетные индексы.
+# Задайте список целых чисел. Найдите сумму элементов списка, имеющих нечетные индексы.
 
-Ввод: значение типа <list> (либо значение типа <int> – размерность списка)
-Вывод: значение типа <int>
 
-Примеры:
-[2, 3, 5, 9, 3]
-12
+nums = [22, 39, 10, 8, 56, 12, 2, 291]
 
-[5, 1, 5, 2, 7, 11]
-14
-"""
+
+def sum_odd_index_elem(nums):
+    sum_odd = 0
+    for i in range(1, len(nums), 2):
+        sum_odd += nums[i]
+    return f'Сумма элементов списка, стоящих на нечетных позициях = {sum_odd}'
+
+
+print(sum_odd_index_elem(nums))
+print(sum_odd_index_elem(nums=[2, 3, 5, 9, 3]))
+
+
+def sum_odd_index_elem_1(nums):
+    sum_odd = 0
+    for i in range(0, len(nums)):
+        if i % 2 != 0:
+            sum_odd += nums[i]
+    return f'Сумма элементов списка, стоящих на нечетных позициях = {sum_odd}'
+
+
+print(sum_odd_index_elem_1(nums))
+print(sum_odd_index_elem_1(nums=[2, 3, 5, 9, 3]))
