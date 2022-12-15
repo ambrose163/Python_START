@@ -4,16 +4,18 @@
 # в) список без повторений
 
 
-sequence = '416763761237651623564756376259834'
-
-control_string1 = set()
-control_string2 = set()
-for element in sequence:
-    if element in control_string1:
-        control_string2.add(element)
+lst = [1, 2, 3, 5, 1, 5, 3, 10]
+lst_1 = []
+lst_2 = []
+for num in lst:
+    if lst.count(num) == 1:
+        lst_1.append(num)
     else:
-        control_string1.add(element)
+        if lst_2.count(num) == 0:
+            lst_2.append(num)
 
-result_sequnce = [element for element in sequence if element not in control_string2]
+lst_3 = list(set(lst))
 
-print(result_sequnce)
+print(lst_1)
+print(lst_2)
+print(lst_3)
