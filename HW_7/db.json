@@ -1,0 +1,72 @@
+{
+    "last_id": {
+      "id": 6
+    },
+    "items": [
+      {
+        "id": 1,
+        "first_name": "Дмитрий",
+        "last_name": "Юраков",
+        "birthday": "22.10.1988",
+        "workplace": "\\",
+        "phone_number": [
+          "89082973325"
+        ]
+      },
+      {
+        "first_name": "Наталья",
+        "last_name": "Котикова",
+        "phone_number": [
+          "777",
+          "555",
+          "666"
+        ],
+        "birthday": "14,36,25",
+        "workplace": "Ё",
+        "id": 2
+      },
+      {
+        "first_name": "Юлия",
+        "last_name": "Сивакова",
+        "phone_number": [
+          "7777"
+        ],
+        "birthday": "23,06,1998",
+        "workplace": "не работает",
+        "id": 3
+      },
+      {
+        "first_name": "Григорий",
+        "last_name": "Зимин",
+        "phone_number": [
+          "777",
+          "888"
+        ],
+        "birthday": "23,05,78",
+        "workplace": "Монтажник",
+        "id": 4
+      },
+      {
+        "first_name": "asvsv",
+        "last_name": "svsvs",
+        "phone_number": [
+          "ssvsv",
+          "svsv",
+          "svsv"
+        ],
+        "birthday": "svsv",
+        "workplace": "svsv",
+        "id": 5
+      },
+      {
+        "first_name": "Олег",
+        "last_name": "Петров",
+        "phone_number": [
+          "1246665"
+        ],
+        "birthday": "20.12.1966",
+        "workplace": "КБО",
+        "id": 6
+      }
+    ]
+  }
